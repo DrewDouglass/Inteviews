@@ -63,7 +63,7 @@ $_SERVER and it's array values.
 6. Explain how `static function` works in PHP class methods.
 
 ```
-[Put Your Answer Here]
+A static function is a method of a class you can call, ie, class::CollegeTest() without initiating an object of the class. Basically, it allows a convienent way to call a certain method without needing the object first (like so -> $obj->CollegeTest())
 ```
 
 7. What is the commonly used library for database connections?
