@@ -45,19 +45,19 @@ Can also create anonymous functions in later versions of PHP.
 3. Name a method to output an array?
 
 ```
-[Put Your Answer Here]
+var_dump() or print_r(), you could also loop through it and echo what is needed or encode it in something human readbale like JSON and dump that. Or just use a php debugger/inspector.
 ```
 
 4. Which operator is used to check if two values are equal and of same data type?
 
 ```
-[Put Your Answer Here]
+triple equals, strict check comparison. "Drew" === "Drew" //true
 ```
 
 5. Which superglobal variable holds information about headers, paths, and script locations?
 
 ```
-[Put Your Answer Here]
+$_SERVER and it's array values.
 ```
 
 6. Explain how `static function` works in PHP class methods.
