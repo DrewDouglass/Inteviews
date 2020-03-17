@@ -30,8 +30,17 @@ Would be prudent to filter any and all incoming input from users.
 2. What is the correct way to create a function in PHP?
 
 ```
-[Put Your Answer Here]
+<?php
+    function college_hunks($arg=true) {
+        if($arg) {
+            return "Hi team"
+        }
+        return "Hi";
+    }
+?>
 ```
+
+Can also create anonymous functions in later versions of PHP.
 
 3. Name a method to output an array?
 
