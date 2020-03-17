@@ -69,7 +69,7 @@ A static function is a method of a class you can call, ie, class::CollegeTest() 
 7. What is the commonly used library for database connections?
 
 ```
-mysqli or one of many 3rd party ORMs
+mysqli, PDO, or one of many 3rd party ORMs
 ```
 
 8. What is the commonly used library for making requests?
@@ -81,7 +81,7 @@ cURL, for extremely simple requests, file_get_contents()
 9. What is PHP function strlen?
 
 ```
-It stans for string length and well, it gets the length of a string. Not zero based. The manual suggests caution when dealing with non english characters and mb_strlen may be better suited.
+It stands for string length and well, it gets the length of a string. Not zero based. The manual suggests caution when dealing with non english characters and mb_strlen may be better suited.
 ```
 
 ## Section: SQL
