@@ -106,6 +106,7 @@ FROM Persons SELECT FirstName WHERE Id = 1
 2. How would you select all the records where the `FirstName` is "Peter" and the `LastName` is "Jackson"?
 
 ```
+(Code off the top of my head, semi-pseudo)
 FROM Persons SELECT * WHERE FirstName = Peter and LastName = Jackson
 ```
 
