@@ -33,9 +33,9 @@ Would be prudent to filter any and all incoming input from users.
 <?php
     function college_hunks($arg=true) {
         if($arg) {
-            return "Hi team"
+            return "Hi team!";
         }
-        return "Hi";
+        return "Hey.";
     }
 ?>
 ```
