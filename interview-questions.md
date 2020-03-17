@@ -23,6 +23,8 @@ variable "num" now equals "num" + 1
 1. How do you get information from a form that is submitted using the "get" method?
 
 ```
+Quick note in case it's a test, Interviews is spelled wrong (Inteviews) unless it's a play on view files.
+
 Use the $_GET super global and the array of the param $_GET['CH']
 Would be prudent to filter any and all incoming input from users.
 ```
