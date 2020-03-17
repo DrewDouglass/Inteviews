@@ -16,14 +16,15 @@ num = num + 1
 variable "num" now equals "num" + 1
 ```
 
------------------------------------------------------------------------
+---
 
 ## Section: PHP
 
 1. How do you get information from a form that is submitted using the "get" method?
 
 ```
-[Put Your Answer Here]
+Use the $_GET super global and the array of the param $_GET['CH']
+Would be prudent to filter any and all incoming input from users.
 ```
 
 2. What is the correct way to create a function in PHP?
@@ -56,7 +57,6 @@ variable "num" now equals "num" + 1
 [Put Your Answer Here]
 ```
 
-
 7. What is the commonly used library for database connections?
 
 ```
@@ -75,18 +75,17 @@ variable "num" now equals "num" + 1
 [Put Your Answer Here]
 ```
 
-
 ## Section: SQL
 
 For the below questions, assume you are using this table (named `Persons`):
 
-| Id | FirstName | LastName  |
-|----|-----------|-----------|
-| 1  | Peter     | Jackson   |
-| 2  | Adam      | Savage    |
-| 3  | Linus     | Sebastian |
-| 4  | Brent     | Spiner    |
-| 5  | Doom      | Guy       |
+| Id  | FirstName | LastName  |
+| --- | --------- | --------- |
+| 1   | Peter     | Jackson   |
+| 2   | Adam      | Savage    |
+| 3   | Linus     | Sebastian |
+| 4   | Brent     | Spiner    |
+| 5   | Doom      | Guy       |
 
 1. How would you select just the first record and only the column `FirstName`?
 
@@ -141,7 +140,6 @@ For the below questions, assume you are using this table (named `Persons`):
 ```
 [Put Your Answer Here]
 ```
-
 
 ## Section: Vanilla Javascript
 
@@ -203,12 +201,11 @@ For the below questions, assume you are using this table (named `Persons`):
 [Put Your Answer Here]
 ```
 
-4. Look at the following selector: $("div p"). What does it select?
+4. Look at the following selector: \$("div p"). What does it select?
 
 ```
 [Put Your Answer Here]
 ```
-
 
 ## Section: React
 
@@ -247,4 +244,3 @@ For the below questions, assume you are using this table (named `Persons`):
 ```
 [Put Your Answer Here]
 ```
-
