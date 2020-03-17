@@ -69,19 +69,19 @@ A static function is a method of a class you can call, ie, class::CollegeTest() 
 7. What is the commonly used library for database connections?
 
 ```
-[Put Your Answer Here]
+mysqli or one of many 3rd party ORMs
 ```
 
 8. What is the commonly used library for making requests?
 
 ```
-[Put Your Answer Here]
+cURL, for extremely simple requests, file_get_contents()
 ```
 
 9. What is PHP function strlen?
 
 ```
-[Put Your Answer Here]
+It stans for string length and well, it gets the length of a string. Not zero based. The manual suggests caution when dealing with non english characters and mb_strlen may be better suited.
 ```
 
 ## Section: SQL
@@ -99,13 +99,14 @@ For the below questions, assume you are using this table (named `Persons`):
 1. How would you select just the first record and only the column `FirstName`?
 
 ```
-[Put Your Answer Here]
+(Code off the top of my head, semi-pseudo)
+FROM Persons SELECT FirstName WHERE Id = 1
 ```
 
 2. How would you select all the records where the `FirstName` is "Peter" and the `LastName` is "Jackson"?
 
 ```
-[Put Your Answer Here]
+FROM Persons SELECT * WHERE FirstName = Peter and LastName = Jackson
 ```
 
 3. How would you select all the records where the `LastName` starts with an "s"?
