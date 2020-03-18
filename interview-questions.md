@@ -101,21 +101,23 @@ For the below questions, assume you are using this table (named `Persons`):
 1. How would you select just the first record and only the column `FirstName`?
 
 ```
-(Code off the top of my head, semi-pseudo)
-FROM Persons SELECT FirstName WHERE Id = 1
+SELECT Firstname from Persons WHERE Id = 1
 ```
 
 2. How would you select all the records where the `FirstName` is "Peter" and the `LastName` is "Jackson"?
 
 ```
-(Code off the top of my head, semi-pseudo)
-FROM Persons SELECT * WHERE FirstName = Peter and LastName = Jackson
+SELECT FirstName, LastName
+FROM Persons
+WHERE FirstName='Peter' AND LastName='Jackson'
 ```
 
 3. How would you select all the records where the `LastName` starts with an "s"?
 
 ```
-[Put Your Answer Here]
+SELECT *
+FROM Persons
+WHERE LOWER(LastName) LIKE 's%'
 ```
 
 4. How would you select all the records where the `FirstName` is alphabetically between "Brent" and "Linus"?
