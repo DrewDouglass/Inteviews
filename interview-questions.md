@@ -123,37 +123,46 @@ WHERE LOWER(LastName) LIKE 's%'
 4. How would you select all the records where the `FirstName` is alphabetically between "Brent" and "Linus"?
 
 ```
-[Put Your Answer Here]
+SELECT *
+FROM Persons
+WHERE FirstName
+BETWEEN 'Brent' AND 'Linus'
 ```
 
 5. How would you insert the name "David Tennant"?
 
 ```
-[Put Your Answer Here]
+INSERT INTO Persons (Id, FirstName, LastName)
+VALUES (6, 'David', 'Tennant')
 ```
 
 6. How would you change all the records where the `FirstName` is equal to "Peter" into "Samuel"?
 
 ```
-[Put Your Answer Here]
+UPDATE Persons
+SET FirstName='Samuel'
+WHERE FirstName='Peter'
 ```
 
 7. How would you delete the records where the `LastName` is "Sebastian"?
 
 ```
-[Put Your Answer Here]
+DELETE FROM Persons WHERE LastName = 'Sebastian'
 ```
 
 8. How would you get the number of records in the `Persons` table?
 
 ```
-[Put Your Answer Here]
+SELECT COUNT (*) FROM Persons
 ```
 
 9. Give an example of how would you join 2 related tables together?
 
 ```
-[Put Your Answer Here]
+For a products example using inner join
+SELECT productCode, productName, textDescription
+FROM products T1
+INNER JOIN productlines T2 ON T1.productline = T2.productline;
 ```
 
 ## Section: Vanilla Javascript
