@@ -230,25 +230,25 @@ true
 1. Can jQuery animate() method can be used to animate ANY CSS property?
 
 ```
-[Put Your Answer Here]
+You can PASS any property to animate(), but not all CSS properties can be animated.
 ```
 
 2. Which jQuery method is used to hide selected elements?
 
 ```
-[Put Your Answer Here]
+.hide() .fadeOut() .slideUp() etc
 ```
 
 3. Which jQuery method is used to perform an asynchronous HTTP request?
 
 ```
-[Put Your Answer Here]
+.ajax()
 ```
 
 4. Look at the following selector: \$("div p"). What does it select?
 
 ```
-[Put Your Answer Here]
+It will select all paragraph tags inside any div tag.
 ```
 
 ## Section: React
@@ -256,35 +256,35 @@ true
 1. What is JSX?
 
 ```
-[Put Your Answer Here]
+Basically, html elements in JavaScript without having to use createElement() etc.
 ```
 
 2. What triggers a render cycle?
 
 ```
-[Put Your Answer Here]
+When a components state or props change.
 ```
 
 3. What is a React Hook?
 
 ```
-[Put Your Answer Here]
+Hooks allow for logic and functionality in a component without having to write a class.
 ```
 
 4. Which method in a React Component should you override to stop the component from updating?
 
 ```
-[Put Your Answer Here]
+shouldComponentUpdate() have it return false.
 ```
 
 5. Which method in a React Component is called after the component is rendered for the first time?
 
 ```
-[Put Your Answer Here]
+componentDidMount()
 ```
 
 6. What happens when you call setState() inside render() method?
 
 ```
-[Put Your Answer Here]
+setState() calls the render() function of the component which will cause an infinite loop.
 ```
