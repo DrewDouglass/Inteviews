@@ -170,40 +170,60 @@ INNER JOIN productlines T2 ON T1.productline = T2.productline;
 1. How do you create a function in JavaScript?
 
 ```
-[Put Your Answer Here]
+function collegeHunkEmployees() {
+    console.log('TODO - Add Drew Douglass to team.');
+}
+
+OR ES6 Arrow Functions
+
+const collegeHunkEmployees = () => { console.log('TODO - Add Drew Douglass to team.'); }
+//collegeHunkEmployees()
 ```
 
 2. How do you call a function named "myFunction"?
 
 ```
-[Put Your Answer Here]
+myFunction();
 ```
 
 4. How to write an IF statement for executing some code if "i" is NOT equal to 5?
 
 ```
-[Put Your Answer Here]
+let i = 4;
+if(i !== 5) {
+    console.log('Not 5');
+}
 ```
 
 5. How does a WHILE loop start?
 
 ```
-[Put Your Answer Here]
+let i = 0;
+while(i <= 10) {
+    console.log(`Current value is ${i}`)
+    i++;
+}
 ```
 
 6. How does a FOR loop start?
 
 ```
-[Put Your Answer Here]
+for(i = 0; i <=10; i++) {
+    console.log(i);
+}
 ```
 
 7. How do you round the number 7.25, to the nearest integer?
 
 ```
-[Put Your Answer Here]
+Math.round(7.25)
 ```
 
 8. What will the following code return: Boolean(10 > 9)
+
+```
+true
+```
 
 ## Section: jQuery
 
